@@ -1,0 +1,44 @@
+
+main{
+    padding-top: 80px;
+}
+table, tr, td{
+    text-align: center;
+    border:2px solid black;
+}
+td{
+    width: 75px;
+}
+table {
+    height: 300px;
+    width: 100%;
+    border-collapse: collapse;
+}
+.day{
+    color: #F6F6F6;
+    background-color: #2D4059;
+}
+.prednaska{
+    background-color: #FFB400;
+}
+.cviko{
+    background-color: #EA5455;
+}
+.volno{
+    background-color: #FFE7D0;
+}
+.telesna{
+    background-color: #567890;
+}
+.vysvetlivky{
+    background-color: #FFB400;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10%;
+    width: 25%;
+    padding-left: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+#rozvrh{
+    background: url("../image/picture3.png") no-repeat;
+}

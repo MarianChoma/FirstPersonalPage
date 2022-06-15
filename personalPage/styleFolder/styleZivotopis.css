@@ -1,0 +1,61 @@
+.lava address{
+    width:100%;
+    background: #2D4059;
+    color: #FFE7D0;
+}
+.prava .znalosti li{
+    list-style-type: none;
+}
+.prava .blok{
+    width:100%;
+    display : flex;
+    justify-content: space-between;
+}
+.prava .znalosti{
+    float: left;
+}
+.prava .jazyky{
+    float:right;
+    margin-right: 10%;
+}
+.lava{
+    overflow: scroll;
+    -ms-overflow-style: none;
+    flex: 25%;
+    height: 100%;
+    background-color: #EA5455;
+}
+.prava::-webkit-scrollbar,.lava::-webkit-scrollbar {
+    display: none;
+}
+.lava h2{
+    margin-bottom: 18%;
+    margin-right: 5%;
+    font-weight: bold;
+    margin-left: 30%;
+}
+.lava #profilovka{
+    margin-top: 25%;
+    margin-left: 31%;
+}
+@media screen and (max-width: 1200px){
+    .lava #profilovka{
+        display: none;
+    }
+}
+.prava{
+    overflow: scroll;
+    height: 100%;
+    flex: 75%;
+    background-color:#FFE7D0;
+}
+.zivotopis{
+    height: calc(100% - 90px);
+    display: flex;
+    width: 100%;
+}
+.lava, .prava{
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
